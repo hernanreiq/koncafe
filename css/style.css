@@ -1,0 +1,122 @@
+/* ELIMINANDO TODOS LOS ETILOS QUE TRAE EL NAVEGADOR POR DEFECTO*/
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/*ESTILOS DEL BODY*/
+body {
+    margin: 0 auto;
+	width: 1000px;
+	height: auto;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-image: url(../img/Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+header nav ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 30px;
+    position: relative;
+    top: 250px;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0px 3px;
+}
+header nav ul li a {
+    color: rgb(255, 255, 255); 
+    font-size: 17px; 
+    line-height: 17px; 
+    padding: 4px; 
+    border-radius: 0px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 164, 57) 0%, rgb(35, 203, 43) 50%, rgb(20, 117, 25) 100%); 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header nav ul li a:hover {
+    background: #1C6EA4; 
+}
+header nav ul li a:active {
+    background: #144E75; 
+}
+/*LOS ESTILOS DEL MAIN O CUERPO DE LA PAGINA*/
+main h1 {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+main table {
+    margin: 25px 0px;
+}
+main table tr td {
+    width: 50%;
+}
+main table tr td.imagen img, iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+}
+main table tr td.texto  {
+    width: 100%;
+    height: 300px;
+    text-align: justify;
+    padding: 50px;
+    color: white;
+    background-color:  rgb(54, 22, 5);
+    border-radius: 25px 25px 25px 25px;
+}
+main table tr td.texto h3 {
+	margin-bottom: 15px;
+}
+
+/*ESTILOS DE ACERCA DE*/
+main div.acercade {
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(54, 22, 5);
+	padding: 20px;
+	border-radius: 25px;
+}
+main div.acercade h2 {
+	margin-top: 30px;
+	color: white;
+}
+main div.acercade ul, main div.acercade p {
+	margin-bottom: 30px;
+	color: green;
+}
+
+/*ESTILOS DEL FOOTER*/
+footer {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+	text-align: center;
+	border-radius: 25px 25px 0px 0px;
+}
